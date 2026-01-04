@@ -1,0 +1,74 @@
+body {
+  background-image: url('OBMC.jpg'); 
+  background-size: 150%; 
+  background-repeat: no-repeat; 
+  background-position: center; 
+  background-attachment: fixed;
+  font-family:"Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  height: 100%;
+
+}
+.container {
+    display: flex;
+    justify-content: space-around; /* Distributes space between items */
+    gap: 20px; /* Adds space between the two panels */
+    padding: 20px;
+}
+
+/* Styles for the left (table) and right (form) panels */
+.left-panel, .right-panel {
+    flex: 1; /* Allows both panels to grow and occupy equal space */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid rgb(113, 121, 166);          
+}
+    
+td {
+  border: 1px solid #a8bce9;
+  text-align: left;
+  padding: 8px;
+}
+      
+tr:nth-child(even) {
+  background-color: #c0ccecce;
+}
+
+.h1 {
+  text-align: center;
+}
+
+
+.hero-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 50px;
+}
+
+.content-image {
+  width: 90%;
+  border-radius: 20px;
+}
+
+.row {
+  display: flex;
+}
+
+.hero-section {
+  padding: 50px;
+}
+
+.col-md-3 {
+  text-align: center;
+}
